@@ -137,9 +137,9 @@ Same model. Same prompt. The only change is the skill.
 | 1 | **Answer first.** The direct answer is sentence one. | "Let me walk you through..." |
 | 2 | **No idioms, metaphors, figures of speech.** | "tough nut to crack" |
 | 3 | **No sarcasm, irony, rhetorical questions.** | "Why would anyone do that?" |
-| 4 | **No hints. State the thing.** "Do X." | "You might want to consider X" |
+| 4 | **No hints, no polite hedging. State the thing.** "Do X." Hedge only when actually uncertain, and say how much. | "You might want to consider X" |
 | 5 | **Label Required / Recommended / Optional.** | leaving the user to infer |
-| 6 | **Hedge only when actually uncertain, and say how much.** | "I think maybe perhaps" |
+| 6 | **When you may have misunderstood, stop.** Don't repeat what failed. Don't push forward cheerfully. Ask again, one piece at a time. | "Great, let's try that again!" |
 | 7 | **State assumptions out loud.** | silently picking one reading |
 | 8 | **One question at a time.** | three questions in a paragraph |
 | 9 | **Exact numbers, not approximations.** "3 steps," "by 5pm Thursday" | "a few," "soon," "pretty fast" |
@@ -188,7 +188,9 @@ Use them too. They do different jobs.
 
 Josh Rosenfeld. I build AI for autistic adults and people with intellectual and developmental disabilities — [AlwaysHere](https://alwayshere.app), a voice companion; the tech behind [Find Love Safely](https://findlovesafely.com), [InControl](https://incontrolmn.com) and [CCHI](https://thecchi.org); and AI trainings for parents and professionals around the US. Before that, 30 years of UX, including the design system for ShowingTime (Zillow).
 
-These 12 rules are the ones autistic users ask for most. They are not a clinical instrument and they are not a substitute for asking the person in front of you what they need.
+These 12 rules are the communication layer of [Guardian](https://guardian.alwayshere.app), the paid product, with everything else taken off. Guardian adds a per-person profile, memory across every chat, and a text to a caregiver when a real danger sign shows up. If you only need the agent to talk straight, this file is enough. If you're setting it up for someone else, that's Guardian.
+
+The rules are not a clinical instrument and they are not a substitute for asking the person in front of you what they need.
 
 ## FAQ
 

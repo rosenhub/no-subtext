@@ -26,6 +26,6 @@ body:
     id: which
     attributes:
       label: Which rule does this change?
-      options: ["1 Answer first", "2 No idioms", "3 No sarcasm", "4 No hints", "5 Required/Optional", "6 Hedging", "7 Assumptions", "8 One question", "9 Exact numbers", "10 No filler", "11 Structure", "12 I don't know", "New rule (say which one it replaces)"]
+      options: ["1 Answer first", "2 No idioms", "3 No sarcasm", "4 No hints or hedging", "5 Required/Optional", "6 Misunderstanding repair", "7 Assumptions", "8 One question", "9 Exact numbers", "10 No filler", "11 Structure", "12 I don't know", "New rule (say which one it replaces)"]
     validations:
       required: true
