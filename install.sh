@@ -5,14 +5,14 @@
 # shared files (AGENTS.md, GEMINI.md, copilot-instructions.md) at most once.
 #
 # Usage:
-#   curl -fsSL https://raw.githubusercontent.com/joshrosenfeld/no-subtext/main/install.sh | sh
+#   curl -fsSL https://raw.githubusercontent.com/rosenhub/no-subtext/main/install.sh | sh
 #   sh install.sh            # from a clone
 #   sh install.sh --project  # also install into the current repo (.cursor, .clinerules, ...)
 #   sh install.sh --dry-run  # show what would happen
 
 set -eu
 
-REPO="joshrosenfeld/no-subtext"
+REPO="rosenhub/no-subtext"
 RAW="https://raw.githubusercontent.com/$REPO/main/SKILL.md"
 MARK_START="<!-- no-subtext:start -->"
 MARK_END="<!-- no-subtext:end -->"

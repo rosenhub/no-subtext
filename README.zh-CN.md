@@ -11,7 +11,7 @@
 [English](README.md) · [安装](#安装) · [12 条规则](#12-条规则)
 
 ```bash
-npx skills add joshrosenfeld/no-subtext
+npx skills add rosenhub/no-subtext
 ```
 
 <img src="assets/before-after.png" width="100%" alt="before / after">
@@ -37,7 +37,7 @@ npx skills add joshrosenfeld/no-subtext
 | OpenClaw | `~/.openclaw/skills/no-subtext/SKILL.md` |
 | ChatGPT | 设置 → 个性化 → 自定义指令 |
 
-或者：`curl -fsSL https://raw.githubusercontent.com/joshrosenfeld/no-subtext/main/install.sh | sh`
+或者：`curl -fsSL https://raw.githubusercontent.com/rosenhub/no-subtext/main/install.sh | sh`
 
 ## 12 条规则
 

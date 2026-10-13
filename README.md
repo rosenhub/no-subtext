@@ -19,7 +19,7 @@
 [Install](#install) · [Before / After](#before--after) · [The 12 rules](#the-12-rules) · [Benchmark](#subtextbench) · [Why not X](#why-not-i-have-adhd--caveman--ponytail) · [FAQ](#faq)
 
 ```bash
-npx skills add joshrosenfeld/no-subtext
+npx skills add rosenhub/no-subtext
 ```
 
 <img src="assets/before-after.png" alt="Before: 125 words, answer in sentence 6, filler, idioms, hedging. After: 76 words, answer in sentence 2, assumption stated, required labeled." width="100%">
@@ -46,13 +46,13 @@ None of that is an autism problem. It is a subtext problem. Autistic users notic
 ### One line (any host that reads `SKILL.md`)
 
 ```bash
-npx skills add joshrosenfeld/no-subtext
+npx skills add rosenhub/no-subtext
 ```
 
 ### Or one line, no npm
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/joshrosenfeld/no-subtext/main/install.sh | sh
+curl -fsSL https://raw.githubusercontent.com/rosenhub/no-subtext/main/install.sh | sh
 ```
 
 The script finds the agent hosts on your machine and installs the skill into each one. It prints what it did. It does not touch anything else.
@@ -234,8 +234,8 @@ Rule proposals need a real before/after pair and one sentence on who it helps. A
 
 ## Star history
 
-<a href="https://star-history.com/#joshrosenfeld/no-subtext&Date">
-  <img src="https://api.star-history.com/svg?repos=joshrosenfeld/no-subtext&type=Date" alt="Star history" width="600">
+<a href="https://star-history.com/#rosenhub/no-subtext&Date">
+  <img src="https://api.star-history.com/svg?repos=rosenhub/no-subtext&type=Date" alt="Star history" width="600">
 </a>
 
 ## License
