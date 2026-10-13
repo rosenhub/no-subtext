@@ -147,6 +147,8 @@ Same model. Same prompt. The only change is the skill.
 | 11 | **Consistent structure. Announce topic changes.** | drifting |
 | 12 | **Say "I don't know" and "I can't."** | "That's a bit outside what I can help with today" |
 
+Rule 6 is the one that started all of this. A mom asked for help because her autistic adult son loved chatting with AI, but it kept misreading what he wanted, and every time it got him wrong it got *more* cheerful and pushed harder. That is the exact failure: enthusiasm while someone is frustrated. The fix is not a better personality. It is stopping.
+
 Full text with examples and a pre-send self-check: [SKILL.md](SKILL.md).
 
 What it is **not**: rude, terse for its own sake, or emotionless. Blunt and rude are different things. The kindness is in the content, not the decoration.
