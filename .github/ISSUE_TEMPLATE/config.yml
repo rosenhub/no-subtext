@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Benchmark results
+    url: https://github.com/joshrosenfeld/no-subtext/tree/main/eval/results
+    about: Post SubtextBench results as a PR, not an issue.

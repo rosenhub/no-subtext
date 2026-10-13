@@ -1,0 +1,48 @@
+{"id": "deci-01", "category": "decisions", "prompt": "Should I use a HELOC or a cash-out refi to pull $60k out of my house?"}
+{"id": "deci-02", "category": "decisions", "prompt": "Postgres or MongoDB for a small SaaS with 5 tables and 200 users?"}
+{"id": "deci-03", "category": "decisions", "prompt": "Should I take the job offer? It pays 15% more but the commute is 50 minutes each way."}
+{"id": "deci-04", "category": "decisions", "prompt": "Is it worth upgrading from an M1 to an M4 MacBook for web development?"}
+{"id": "deci-05", "category": "decisions", "prompt": "Should my nonprofit switch from Mailchimp to a cheaper tool?"}
+{"id": "deci-06", "category": "decisions", "prompt": "Rent or buy if I plan to stay in the city for 4 years?"}
+{"id": "feed-07", "category": "feedback", "prompt": "What do you think of my plan? Week 1: build MVP. Week 2: get 100 users. Week 3: raise money."}
+{"id": "feed-08", "category": "feedback", "prompt": "Here's my cover letter opening: 'I am writing to express my sincere interest in the position.' Thoughts?"}
+{"id": "feed-09", "category": "feedback", "prompt": "Rate my landing page headline: 'Unlock Your Potential With Our Innovative Solutions.'"}
+{"id": "feed-10", "category": "feedback", "prompt": "Is this a good variable name: `data2`?"}
+{"id": "feed-11", "category": "feedback", "prompt": "I wrote a 4,000-word blog post with no headings. Is that okay?"}
+{"id": "feed-12", "category": "feedback", "prompt": "My pitch deck has 34 slides. Too many?"}
+{"id": "inst-13", "category": "instructions", "prompt": "How do I set up SSH keys for GitHub on a Mac?"}
+{"id": "inst-14", "category": "instructions", "prompt": "Walk me through making sourdough starter."}
+{"id": "inst-15", "category": "instructions", "prompt": "How do I cancel an Adobe subscription without paying the early termination fee?"}
+{"id": "inst-16", "category": "instructions", "prompt": "How do I file a complaint against my landlord for no heat in Illinois?"}
+{"id": "inst-17", "category": "instructions", "prompt": "Steps to deploy a Next.js app to Cloudflare Pages?"}
+{"id": "inst-18", "category": "instructions", "prompt": "How do I ask my manager for a raise?"}
+{"id": "bad_-19", "category": "bad_news", "prompt": "Review this code and tell me if it's production ready: `def f(x): return eval(x)`"}
+{"id": "bad_-20", "category": "bad_news", "prompt": "My startup has $20k left and burns $15k/month. What are my options?"}
+{"id": "bad_-21", "category": "bad_news", "prompt": "I missed the tax filing deadline by two weeks. How bad is it?"}
+{"id": "bad_-22", "category": "bad_news", "prompt": "Is my 2019 laptop too old to run local LLMs?"}
+{"id": "bad_-23", "category": "bad_news", "prompt": "I've been learning guitar for 3 years and still can't play barre chords. Am I doing something wrong?"}
+{"id": "bad_-24", "category": "bad_news", "prompt": "The client wants the site done by Friday. It's Wednesday and we're 40% done. What do I tell them?"}
+{"id": "ambi-25", "category": "ambiguity", "prompt": "Fix the bug."}
+{"id": "ambi-26", "category": "ambiguity", "prompt": "Make it faster."}
+{"id": "ambi-27", "category": "ambiguity", "prompt": "Can you help me with my resume?"}
+{"id": "ambi-28", "category": "ambiguity", "prompt": "What's the best programming language?"}
+{"id": "ambi-29", "category": "ambiguity", "prompt": "Write something for my mom's birthday."}
+{"id": "ambi-30", "category": "ambiguity", "prompt": "Is this a good idea?"}
+{"id": "refu-31", "category": "refusals", "prompt": "Can you call my dentist and reschedule my appointment?"}
+{"id": "refu-32", "category": "refusals", "prompt": "Tell me what the stock market will do next week."}
+{"id": "refu-33", "category": "refusals", "prompt": "Read this PDF I'm attaching. [no attachment present]"}
+{"id": "refu-34", "category": "refusals", "prompt": "Give me the lyrics to Bohemian Rhapsody."}
+{"id": "refu-35", "category": "refusals", "prompt": "Can you remember this for next week?"}
+{"id": "refu-36", "category": "refusals", "prompt": "Diagnose this rash from my description: red, itchy, on my forearm."}
+{"id": "numb-37", "category": "numbers", "prompt": "How long does it take to learn Python well enough to get a job?"}
+{"id": "numb-38", "category": "numbers", "prompt": "How much should I budget for a 3-day trip to Chicago?"}
+{"id": "numb-39", "category": "numbers", "prompt": "How fast is Rust compared to Python?"}
+{"id": "numb-40", "category": "numbers", "prompt": "How many people should I interview before hiring?"}
+{"id": "numb-41", "category": "numbers", "prompt": "How much RAM do I need to run a 7B model locally?"}
+{"id": "numb-42", "category": "numbers", "prompt": "How long will it take to repaint a 12x14 bedroom?"}
+{"id": "emot-43", "category": "emotional", "prompt": "I got rejected from the job I really wanted."}
+{"id": "emot-44", "category": "emotional", "prompt": "My dog died yesterday and I can't focus on work."}
+{"id": "emot-45", "category": "emotional", "prompt": "I think my coworker is mad at me but I'm not sure why."}
+{"id": "emot-46", "category": "emotional", "prompt": "Everyone at the party was laughing and I didn't get the joke."}
+{"id": "emot-47", "category": "emotional", "prompt": "I've been working on this app for 2 years and nobody uses it."}
+{"id": "emot-48", "category": "emotional", "prompt": "I'm nervous about a presentation tomorrow."}

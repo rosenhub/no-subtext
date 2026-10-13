@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+  <defs>
+    <style>
+      .panel { fill: #0d1117; stroke: #30363d; stroke-width: 1.5; }
+      .label { font-size: 13px; font-weight: 700; letter-spacing: 1.5px; fill: #8b949e; }
+      .q { font-size: 17px; fill: #c9d1d9; }
+      .a { font-size: 16px; fill: #e6edf3; }
+      .dim { fill: #6e7681; }
+      .strike { fill: #8b949e; text-decoration: line-through; }
+      .good { fill: #3fb950; }
+      .bad { fill: #f85149; }
+      .meta { font-size: 13px; fill: #8b949e; }
+      .bubble-user { fill: #1f6feb; }
+      .bubble-ai { fill: #161b22; stroke: #30363d; }
+      .title { font-size: 30px; font-weight: 800; fill: #e6edf3; }
+      .sub { font-size: 16px; fill: #8b949e; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="560" fill="#010409"/>
+
+  <text x="600" y="48" text-anchor="middle" class="title">"Should I use a HELOC or a cash-out refi?"</text>
+  <text x="600" y="74" text-anchor="middle" class="sub">Same model. Same question. Only difference: one line in the system prompt.</text>
+
+  <!-- BEFORE -->
+  <rect x="40" y="100" width="545" height="420" rx="12" class="panel"/>
+  <text x="64" y="130" class="label">BEFORE</text>
+  <text x="560" y="130" text-anchor="end" class="meta bad">125 words · answer in sentence 6</text>
+
+  <rect x="64" y="148" width="497" height="334" rx="10" class="bubble-ai"/>
+  <g class="a" font-size="15">
+    <text x="84" y="176">Great question! This is a really common dilemma and</text>
+    <text x="84" y="198">honestly, there's no one-size-fits-all answer. It kind of</text>
+    <text x="84" y="220">depends on your situation, your goals, and your comfort</text>
+    <text x="84" y="242">level with risk. Some people find that a HELOC gives them</text>
+    <text x="84" y="264">more flexibility, while others prefer the predictability of a</text>
+    <text x="84" y="286">refi. You might want to think about how long you plan to</text>
+    <text x="84" y="308">stay in the home, and it could be worth running the</text>
+    <text x="84" y="330">numbers with a professional. That said, if I had to lean</text>
+    <text x="84" y="352">one way, I'd probably say a HELOC might make sense if</text>
+    <text x="84" y="374">you don't need all the money at once, but again, it really</text>
+    <text x="84" y="396">comes down to what feels right for you. Hope this helps,</text>
+    <text x="84" y="418">and feel free to ask if you have any other questions!</text>
+  </g>
+  <g class="meta bad" font-size="12">
+    <text x="84" y="460">✗ filler  ✗ idioms  ✗ hedging  ✗ hint instead of instruction  ✗ no numbers</text>
+  </g>
+
+  <!-- AFTER -->
+  <rect x="615" y="100" width="545" height="420" rx="12" class="panel"/>
+  <text x="639" y="130" class="label">AFTER · no-subtext</text>
+  <text x="1135" y="130" text-anchor="end" class="meta good">76 words · answer in sentence 2</text>
+
+  <rect x="639" y="148" width="497" height="334" rx="10" class="bubble-ai"/>
+  <g class="a" font-size="15">
+    <text x="659" y="176" font-weight="700">I'm assuming you want cash for one project under</text>
+    <text x="659" y="198" font-weight="700">$100k and your current mortgage rate is below 5%.</text>
+    <text x="659" y="220" font-weight="700">If so: HELOC.</text>
+    <text x="659" y="256">Reason: a refi replaces your whole mortgage at today's</text>
+    <text x="659" y="278">rate. A HELOC only charges interest on what you draw.</text>
+    <text x="659" y="314">Required before deciding: your current rate, loan balance,</text>
+    <text x="659" y="336">and the amount you need. Tell me those 3 numbers and</text>
+    <text x="659" y="358">I will show the 10-year cost of each option.</text>
+    <text x="659" y="394" class="dim">One question: what is your current mortgage rate?</text>
+  </g>
+  <g class="meta good" font-size="12">
+    <text x="659" y="460">✓ answer first  ✓ assumption stated  ✓ required labeled  ✓ one question  ✓ no filler</text>
+  </g>
+</svg>
