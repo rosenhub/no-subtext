@@ -14,7 +14,6 @@
 [![Status](https://img.shields.io/badge/status-v1.0-brightgreen?style=flat-square)](CHANGELOG.md)
 [![SubtextBench](https://img.shields.io/badge/SubtextBench-run%20it-orange?style=flat-square)](eval/)
 
-**让你的 AI 说它真正的意思。为自闭症用户设计，对所有人更好。**
 
 [Install](#install) · [Before / After](#before--after) · [The 12 rules](#the-12-rules) · [Benchmark](#subtextbench) · [Why not X](#why-not-i-have-adhd--caveman--ponytail) · [FAQ](#faq)
 
