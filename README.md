@@ -24,7 +24,7 @@ npx skills add rosenhub/no-subtext
 
 Part of [AI Their Way](https://github.com/rosenhub/ai-their-way) — siblings: [what-did-they-mean](https://github.com/rosenhub/what-did-they-mean) · [never-say-remember](https://github.com/rosenhub/never-say-remember) · [easy-read](https://github.com/rosenhub/easy-read) · [presume-competence](https://github.com/rosenhub/presume-competence) · [low-demand](https://github.com/rosenhub/low-demand) · [is-this-a-scam](https://github.com/rosenhub/is-this-a-scam) · [one-thing](https://github.com/rosenhub/one-thing)
 
-<img src="assets/before-after.png" alt="Before: 97 words, never answers the question. After: 64 words, answers no in the first word, labels what is required and recommended." width="100%">
+<img src="assets/before-after.png" alt="Before: 85 words · never says what will happen. After: 105 words · 6 steps, 5 times, in order. An autistic adult, the night before. Not knowing what will happen is the hard part." width="100%">
 
 </div>
 
@@ -88,17 +88,28 @@ If your host isn't here and it reads markdown instructions from a file, it works
 
 Same model. Same prompt. The only change is the skill.
 
-### "Is this function thread-safe?"
+### "What will happen at my new doctor appointment tomorrow?"
+
+*An autistic adult, the night before. Not knowing what will happen is the hard part.*
 
 **Before**
 
-> That's a great question, and thread safety can definitely be tricky! Looking at your function, there are a few things worth considering. The shared counter is being incremented without any synchronization, which in some scenarios could potentially lead to race conditions, especially under heavy load. You might want to think about using a lock or an atomic type here. That said, it really depends on how the function is being called in practice. Hope that helps!
+> Great question! First appointments can feel a little nerve-wracking, but try not to worry too much. You'll be fine! It really depends on the doctor and the clinic, but usually they just want to get to know you a bit. You might want to bring a few things with you, and it could be a good idea to jot down any questions you have. Just be yourself and go with the flow. Most people find it's much easier than they expected. Hope it goes well!
 
 **After**
 
-> No. Line 14 increments `counter` without a lock, so two threads can read the same value and both write `value + 1`. One increment is lost.
+> What usually happens, in order. About 45 minutes.
 >
-> Required fix: replace `counter += 1` with `counter.fetch_add(1, Ordering::SeqCst)` and change the type to `AtomicU64`.
+> 1. Front desk: show your ID and insurance card.
+> 2. Fill out 2 to 4 pages of forms. About 10 minutes.
+> 3. Wait in the waiting room. Usually 5 to 20 minutes.
+> 4. A nurse checks your weight and blood pressure.
+> 5. The doctor asks about your health. 15 to 20 minutes.
+> 6. You ask your questions. Then you leave.
+>
+> **Required:** ID, insurance card, a list of your medicines. **Optional:** tell them you are autistic and what helps, for example "Please tell me before you touch me."
+>
+> Do you want me to write that sentence for you?
 
 ### "Can you help me write to my landlord about the broken heater?"
 

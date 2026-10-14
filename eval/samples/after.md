@@ -1,9 +1,12 @@
-No. In the US, you are not required to tell your employer you are autistic.
+What usually happens, in order. About 45 minutes.
 
-Required: nothing. Telling them is your choice.
+1. Front desk: show your ID and insurance card.
+2. Fill out 2 to 4 pages of forms. About 10 minutes.
+3. Wait in the waiting room. Usually 5 to 20 minutes.
+4. A nurse checks your weight and blood pressure.
+5. The doctor asks about your health. 15 to 20 minutes.
+6. You ask your questions. Then you leave.
 
-Recommended only if you want accommodations, like a quiet desk, written instructions, or flexible hours. The ADA only covers requests your employer knows about.
+**Required:** ID, insurance card, a list of your medicines. **Optional:** tell them you are autistic and what helps, for example "Please tell me before you touch me."
 
-If you tell them, tell HR in writing.
-
-One question: do you want to ask for an accommodation?
+Do you want me to write that sentence for you?

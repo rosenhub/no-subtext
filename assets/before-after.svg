@@ -1,67 +1,42 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
-  <defs>
-    <style>
-      .panel { fill: #0d1117; stroke: #30363d; stroke-width: 1.5; }
-      .label { font-size: 13px; font-weight: 700; letter-spacing: 1.5px; fill: #8b949e; }
-      .q { font-size: 17px; fill: #c9d1d9; }
-      .a { font-size: 16px; fill: #e6edf3; }
-      .dim { fill: #6e7681; }
-      .strike { fill: #8b949e; text-decoration: line-through; }
-      .good { fill: #3fb950; }
-      .bad { fill: #f85149; }
-      .meta { font-size: 13px; fill: #8b949e; }
-      .bubble-user { fill: #1f6feb; }
-      .bubble-ai { fill: #161b22; stroke: #30363d; }
-      .title { font-size: 30px; font-weight: 800; fill: #e6edf3; }
-      .sub { font-size: 16px; fill: #8b949e; }
-    </style>
-  </defs>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+  <rect width="1200" height="620" fill="#010409"/>
+  <text x="600" y="46" text-anchor="middle" font-size="28" font-weight="800" fill="#e6edf3">"What will happen at my new doctor appointment tomorrow?"</text>
+  <text x="600" y="76" text-anchor="middle" font-size="17" font-style="italic" fill="#c9d1d9">An autistic adult, the night before. Not knowing what will happen is the hard part.</text>
+  <text x="600" y="99" text-anchor="middle" font-size="13" fill="#6e7681">Same model. Same question. The only difference is one skill file.</text>
 
-  <rect width="1200" height="560" fill="#010409"/>
-
-  <text x="600" y="48" text-anchor="middle" class="title">"Do I have to tell my employer I'm autistic?"</text>
-  <text x="600" y="74" text-anchor="middle" class="sub">Same model. Same question. Only difference: one line in the system prompt.</text>
-
-  <!-- BEFORE -->
-  <rect x="40" y="100" width="545" height="420" rx="12" class="panel"/>
-  <text x="64" y="130" class="label">BEFORE</text>
-  <text x="560" y="130" text-anchor="end" class="meta bad">97 words · never answers</text>
-
-  <rect x="64" y="148" width="497" height="334" rx="10" class="bubble-ai"/>
-  <g class="a" font-size="15">
-    <text x="84" y="176">That&#39;s a really important question, and it&#39;s great that</text>
-    <text x="84" y="198">you&#39;re thinking about it! Honestly, there&#39;s no</text>
-    <text x="84" y="220">one-size-fits-all answer. It kind of depends on your</text>
-    <text x="84" y="242">workplace, your relationship with your manager, and your</text>
-    <text x="84" y="264">comfort level. Some people find that disclosing helps</text>
-    <text x="84" y="286">them get the support they need, while others prefer to</text>
-    <text x="84" y="308">keep it private. You might want to think about whether</text>
-    <text x="84" y="330">you need any accommodations, and it could be worth</text>
-    <text x="84" y="352">talking to HR or a trusted colleague first. At the end</text>
-    <text x="84" y="374">of the day, it&#39;s a personal decision and there&#39;s no</text>
-    <text x="84" y="396">right or wrong answer. Hope this helps!</text>
+  <rect x="40" y="118" width="545" height="460" rx="12" fill="#0d1117" stroke="#30363d" stroke-width="1.5"/>
+  <text x="64" y="148" font-size="13" font-weight="700" letter-spacing="1.5" fill="#8b949e">BEFORE</text>
+  <text x="560" y="148" text-anchor="end" font-size="13" fill="#f85149">85 words · never says what will happen</text>
+  <rect x="64" y="166" width="497" height="376" rx="10" fill="#161b22" stroke="#30363d"/>
+  <g fill="#e6edf3">
+    <text x="84" y="196" font-size="15">Great question! First appointments can feel a little</text>
+    <text x="84" y="218" font-size="15">nerve-wracking, but try not to worry too much. You'll be</text>
+    <text x="84" y="240" font-size="15">fine! It really depends on the doctor and the clinic,</text>
+    <text x="84" y="262" font-size="15">but usually they just want to get to know you a bit. You</text>
+    <text x="84" y="284" font-size="15">might want to bring a few things with you, and it could</text>
+    <text x="84" y="306" font-size="15">be a good idea to jot down any questions you have. Just</text>
+    <text x="84" y="328" font-size="15">be yourself and go with the flow. Most people find it's</text>
+    <text x="84" y="350" font-size="15">much easier than they expected. Hope it goes well!</text>
   </g>
-  <g class="meta bad" font-size="12">
-    <text x="84" y="460">✗ filler  ✗ idioms  ✗ hedging  ✗ hints  ✗ never says yes or no</text>
-  </g>
+  <text x="84" y="524" font-size="12" fill="#f85149">✗ "don't worry"  ✗ "it depends"  ✗ hints  ✗ no steps  ✗ no times</text>
 
-  <!-- AFTER -->
-  <rect x="615" y="100" width="545" height="420" rx="12" class="panel"/>
-  <text x="639" y="130" class="label">AFTER · no-subtext</text>
-  <text x="1135" y="130" text-anchor="end" class="meta good">64 words · answer in sentence 1</text>
-
-  <rect x="639" y="148" width="497" height="334" rx="10" class="bubble-ai"/>
-  <g class="a" font-size="15">
-    <text x="659" y="176" font-weight="700">No. In the US, you are not required to tell your</text>
-    <text x="659" y="198" font-weight="700">employer you are autistic.</text>
-    <text x="659" y="234">Required: nothing. Telling them is your choice.</text>
-    <text x="659" y="270">Recommended only if you want accommodations, like a</text>
-    <text x="659" y="292">quiet desk, written instructions, or flexible hours.</text>
-    <text x="659" y="314">The ADA only covers requests your employer knows about.</text>
-    <text x="659" y="350">If you tell them, tell HR in writing.</text>
-    <text x="659" y="386" class="dim">One question: do you want to ask for an accommodation?</text>
+  <rect x="615" y="118" width="545" height="460" rx="12" fill="#0d1117" stroke="#30363d" stroke-width="1.5"/>
+  <text x="639" y="148" font-size="13" font-weight="700" letter-spacing="1.5" fill="#8b949e">AFTER · no-subtext</text>
+  <text x="1135" y="148" text-anchor="end" font-size="13" fill="#3fb950">105 words · 6 steps, 5 times, in order</text>
+  <rect x="639" y="166" width="497" height="376" rx="10" fill="#161b22" stroke="#30363d"/>
+  <g fill="#e6edf3">
+    <text x="659" y="196" font-size="15" font-weight="700">What usually happens, in order. About 45 minutes.</text>
+    <text x="659" y="230" font-size="15">1. Front desk: show your ID and insurance card.</text>
+    <text x="659" y="252" font-size="15">2. Fill out 2 to 4 pages of forms. About 10 minutes.</text>
+    <text x="659" y="274" font-size="15">3. Wait in the waiting room. Usually 5 to 20 minutes.</text>
+    <text x="659" y="296" font-size="15">4. A nurse checks your weight and blood pressure.</text>
+    <text x="659" y="318" font-size="15">5. The doctor asks about your health. 15 to 20 minutes.</text>
+    <text x="659" y="340" font-size="15">6. You ask your questions. Then you leave.</text>
+    <text x="659" y="374" font-size="15"><tspan font-weight="700">Required:</tspan> ID, insurance card, a list of your medicines.</text>
+    <text x="659" y="396" font-size="15"><tspan font-weight="700">Optional:</tspan> tell them you are autistic and what helps,</text>
+    <text x="659" y="418" font-size="15">for example "Please tell me before you touch me."</text>
+    <text x="659" y="452" font-size="15" fill="#8b949e">Do you want me to write that sentence for you?</text>
+    
   </g>
-  <g class="meta good" font-size="12">
-    <text x="659" y="460">✓ answer first  ✓ required labeled  ✓ concrete  ✓ one question</text>
-  </g>
+  <text x="659" y="524" font-size="12" fill="#3fb950">✓ in order  ✓ exact times  ✓ required labeled  ✓ one question</text>
 </svg>
