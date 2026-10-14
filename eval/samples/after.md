@@ -1,7 +1,9 @@
-I'm assuming you want cash for one project under $100k and your current mortgage rate is below 5%. If so: HELOC.
+No. In the US, you are not required to tell your employer you are autistic.
 
-Reason: a refi replaces your whole mortgage at today's rate. A HELOC only charges interest on what you draw.
+Required: nothing. Telling them is your choice.
 
-Required before deciding: your current rate, loan balance, and the amount you need. Tell me those 3 numbers and I will show the 10-year cost of each option.
+Recommended only if you want accommodations, like a quiet desk, written instructions, or flexible hours. The ADA only covers requests your employer knows about.
 
-One question: what is your current mortgage rate?
+If you tell them, tell HR in writing.
+
+One question: do you want to ask for an accommodation?

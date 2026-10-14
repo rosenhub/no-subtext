@@ -24,7 +24,7 @@ npx skills add rosenhub/no-subtext
 
 Part of [AI Their Way](https://github.com/rosenhub/ai-their-way) — siblings: [what-did-they-mean](https://github.com/rosenhub/what-did-they-mean) · [never-say-remember](https://github.com/rosenhub/never-say-remember) · [easy-read](https://github.com/rosenhub/easy-read) · [presume-competence](https://github.com/rosenhub/presume-competence) · [low-demand](https://github.com/rosenhub/low-demand) · [is-this-a-scam](https://github.com/rosenhub/is-this-a-scam) · [one-thing](https://github.com/rosenhub/one-thing)
 
-<img src="assets/before-after.png" alt="Before: 125 words, answer in sentence 6, filler, idioms, hedging. After: 76 words, answer in sentence 2, assumption stated, required labeled." width="100%">
+<img src="assets/before-after.png" alt="Before: 97 words, never answers the question. After: 64 words, answers no in the first word, labels what is required and recommended." width="100%">
 
 </div>
 
